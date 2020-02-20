@@ -1,0 +1,18 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+
+class Category extends Model
+{
+    protected $guarded = [];
+
+    public function parent_category(){
+        return $this->belongsTo('App\Models\Category'); //__CLASS__
+    }
+
+    public function child_category(){
+        return $this->hasMany('App\Models\Category');
+    }
+}
