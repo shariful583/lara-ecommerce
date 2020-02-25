@@ -1,4 +1,4 @@
-
+npm 
 Lara-ecommerce is a laravel based open source ecommerce web application.
 
 
@@ -9,7 +9,7 @@ Lara-ecommerce is a laravel based open source ecommerce web application.
 - Run `cp .env .example .env`
 - Run `php artisan migrate --seed`
 
-## package Need
+## Package Need
 - `laravel-medialibrary`
 
 
